@@ -1,7 +1,7 @@
 {
   "name": "YKBOT-643",
   "description": "Javascript WhatsApp bot made by YourName",
-  "logo": "https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg",
+  "logo": "https://i.imgur.com/I8NQZwC.jpeg",
   "keywords": ["bot"],
   "success_url": "/",
 
@@ -12,7 +12,7 @@
     },  
 
     "ALIVE_IMG": {
-      "description": "Put your alive img here.",
+      "description": "https://i.imgur.com/Fu9lzTw.jpeg.",
       "required": true
     },
     
