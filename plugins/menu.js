@@ -18,6 +18,42 @@ convert:'',
 search:''
 },
 
+for (let i = 0; i < commands.length; i++) {
+if (commands[i].pattern && !commands[i].dontAddCommandList) {
+menu[commands[i].category] += `.${commands[i].pattern}\n`;
+ }
+}
+
+let madeMenu = `*Hello ${pushname*`
+> *DOWNLOAD COMMANDS*✅
+
+${menu.download}
+
+> *MAIN COMMANDS* 😹
+
+${menu.main}
+
+> *GROUP COMMANDS* ⏩
+
+${menu.group}
+
+> *OWNER COMMANDS* 🆗👑
+
+${menu.owner}
+
+> *CONVERT COMMANDS* 🦅
+
+${menu.convert}
+
+> *SEARCH COMMANDS* 📳🔁
+
+${menu.search}
+
+POWERED BY YOUSSOUF YK 🦅👑
+`
+await conn.sendMessage(from,{text:madeMenu},{quoted:mek})
+
+
 
 }catch(e){
 console.log(e)
