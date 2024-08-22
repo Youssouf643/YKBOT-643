@@ -16,7 +16,7 @@ let status = `*Uptime:*  ${runtime(process.uptime())}
 *HostName:* ${os.hostname()}
 *Owner:* Youssouf YK & YKBOT643
 `
-retrun reply(`${status}`)
+return reply(`${status}`)
 
 }catch(e){
 console.log(e)
