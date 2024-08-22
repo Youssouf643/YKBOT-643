@@ -51,7 +51,7 @@ ${menu.search}
 
 POWERED BY YOUSSOUF YK 🦅👑
 `
-await conn.sendMessage(from,{text:madeMenu},{quoted:mek})
+await conn.sendMessage(from,{image:{url:"https://i.imgur.com/Fu9lzTw.jpeg"},caption:madeMenu},{quoted:mek})
 
 
 
