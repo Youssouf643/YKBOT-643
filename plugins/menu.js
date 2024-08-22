@@ -10,8 +10,16 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 let menu = {
+menu:'',
+download:'',
+group:'',
+owner:'',
+convert:'',
+search:''
+},
+
 
 }catch(e){
 console.log(e)
-reply(${e})
+reply(`${e}`)
 }
