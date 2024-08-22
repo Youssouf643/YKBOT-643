@@ -1,13 +1,13 @@
 {
   "name": "YKBOT-643",
-  "description": "Javascript WhatsApp bot made by YourName",
+  "description": "Javascript WhatsApp bot made by Youssouf YK",
   "logo": "https://i.imgur.com/I8NQZwC.jpeg",
   "keywords": ["bot"],
   "success_url": "/",
 
   "env": {
     "SESSION_ID": {
-      "description": "Put your session here.",
+      "description": "Put your session here",
       "required": true
     },  
 
