@@ -49,7 +49,7 @@ ${menu.convert}
 
 ${menu.search}
 
-POWERED BY YOUSSOUF YK 🦅👑
+*POWERED BY YOUSSOUF YK* 🦅👑
 `
 await conn.sendMessage(from,{image:{url:"https://i.imgur.com/Fu9lzTw.jpeg"},caption:madeMenu},{quoted:mek})
 
